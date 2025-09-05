@@ -1,0 +1,13 @@
+[Unit]
+Description=METARClock
+After=syslog.target network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+User=metar
+ExecStart=/usr/bin/python3 /home/metar/metarclock.py
+
+[Install]
+WantedBy=multi-user.target
