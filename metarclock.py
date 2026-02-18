@@ -589,7 +589,7 @@ if __name__ == '__main__':
     '''
     
     #**** PROGRAM VERSION ****#
-    __version__ = "2.3b"
+    __version__ = "3.0a"
 
     #**** YOU WILL NEED TO CHANGE THESE THINGS ****#
     # Things that are PLATFORM AND INSTALLATION SPECIFIC (ie SBC and/or OS and user)
@@ -598,16 +598,11 @@ if __name__ == '__main__':
     cfgFile = '/home/metar/metarclock/config.ini'
 
     #**** SOME THINGS HERE COULD CHANGE -- LIKE THE LOG LEVEL AND IF YOU ****#
-    #****    WANT CONSOLE LOGGING, WHICH CAN BE USEFUL FOR DEBUGGING     ****#
     logPFX = '[METARClock V{}]'.format(__version__)
-    consoleLog = True
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
-    syslogHandler = logging.handlers.SysLogHandler(address='/dev/log')
-    logger.addHandler(syslogHandler)
-    if consoleLog == True:
-        consoleHandler = logging.StreamHandler(sys.stdout)
-        logger.addHandler(consoleHandler)
+    consoleHandler = logging.StreamHandler(sys.stdout)
+    logger.addHandler(consoleHandler)
     logger.info('{}: Starting up'.format(logPFX))
 
     # Read external configuration file
