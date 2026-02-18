@@ -595,7 +595,7 @@ if __name__ == '__main__':
     # Things that are PLATFORM AND INSTALLATION SPECIFIC (ie SBC and/or OS and user)
     serialDevice = '/dev/ttyS1'
     netInterface = 'wlan0'
-    cfgFile = '/home/metar/config.ini'
+    cfgFile = '/home/metar/metarclock/config.ini'
 
     #**** SOME THINGS HERE COULD CHANGE -- LIKE THE LOG LEVEL AND IF YOU ****#
     #****    WANT CONSOLE LOGGING, WHICH CAN BE USEFUL FOR DEBUGGING     ****#
