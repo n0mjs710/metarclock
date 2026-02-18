@@ -1,0 +1,31 @@
+METARupdate()
+metar_id
+metar
+w
+get_metar(
+https://
+http:
+url
+wgst
+print(
+Unexpected (valid) string from Nextion
+Loop Run @
+wdir
+wspd
+The read operation timed out
+urlopen
+new metar received
+Missing METAR Time Processing METAR aging
+metarDTime
+logger.debug
+obsTime
+obstime
+obs
+logging
+END_COM
+cmdStr
+CFGupdate
+serialReceive()
+
+
+

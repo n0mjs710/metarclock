@@ -1,0 +1,6 @@
+--2025-10-29 19:24:35--  https://aviationweather.gov/api/data/metar?ids=KLWC
+Resolving aviationweather.gov (aviationweather.gov)... 18.161.170.76, 18.161.170.24, 18.161.170.82, ...
+Connecting to aviationweather.gov (aviationweather.gov)|18.161.170.76|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-10-29 19:24:35 ERROR 403: Forbidden.
+
